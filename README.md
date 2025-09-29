@@ -1,212 +1,156 @@
-# Data Engineering Zoomcamp
+<p align="center">
+  <img width="100%" src="images/architecture/arch_v4_workshops.jpg" alt="Data Engineering Zoomcamp Overview">
+</p>
+
+<h1 align="center">
+    <strong>Data Engineering Zoomcamp: A Free 9-Week Course on Data Engineering Fundamentals</strong>
+</h1>
+
+<p align="center">
+Master the fundamentals of data engineering by building an end-to-end data pipeline from scratch. Gain hands-on experience with industry-standard tools and best practices.
+</p>
+
+<p align="center">
+<a href="https://airtable.com/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
+
+<p align="center">
+<a href="https://datatalks.club/slack.html">Join Slack</a> •
+<a href="https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG">#course-data-engineering Channel</a> •
+<a href="https://t.me/dezoomcamp">Telegram Announcements</a> •
+<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb">Course Playlist</a> •
+<a href="https://datatalks.club/faq/data-engineering-zoomcamp.html">FAQ</a>
+</p>
+
+## How to Enroll
+
+### 2026 Cohort
+- **Start Date**: January 2026
+- **Register Here**: [Sign up](https://airtable.com/shr6oVXeQvSI5HuWD)
+
+### Self-Paced Learning
+All course materials are freely available for independent study. Follow these steps:
+1. Watch the course videos.
+2. Join the [Slack community](https://datatalks.club/slack.html).
+3. Refer to the [FAQ document](https://datatalks.club/faq/data-engineering-zoomcamp.html) for guidance.
+
+## Syllabus Overview
+The course consists of structured modules, hands-on workshops, and a final project to reinforce your learning.
+
+### **Prerequisites**
+To get the most out of this course, you should have:
+- Basic coding experience
+- Familiarity with SQL
+- Experience with Python (helpful but not required)
+
+No prior data engineering experience is necessary.
+
+### **Modules**
+
+#### [Module 1: Containerization and Infrastructure as Code](01-docker-terraform/)
+- Introduction to GCP
+- Docker and Docker Compose
+- Running PostgreSQL with Docker
+- Infrastructure setup with Terraform
+- Homework
+
+#### [Module 2: Workflow Orchestration](02-workflow-orchestration/)
+- Data Lakes and Workflow Orchestration
+- Workflow orchestration with Kestra
+- Homework
+
+#### [Workshop 1: Data Ingestion](cohorts/2025/workshops/dlt/README.md)
+- API reading and pipeline scalability
+- Data normalization and incremental loading
+- Homework
+
+#### [Module 3: Data Warehousing](03-data-warehouse/)
+- Introduction to BigQuery
+- Partitioning, clustering, and best practices
+- Machine learning in BigQuery
+
+#### [Module 4: Analytics Engineering](04-analytics-engineering/)
+- dbt (data build tool) with PostgreSQL & BigQuery
+- Testing, documentation, and deployment
+- Data visualization with Metabase
+
+#### [Module 5: Batch Processing](05-batch/)
+- Introduction to Apache Spark
+- DataFrames and SQL
+- Internals of GroupBy and Joins
+
+#### [Module 6: Streaming](06-streaming/)
+- Introduction to Kafka
+- Kafka Streams and KSQL
+- Schema management with Avro
+
+#### [Final Project](projects/)
+- Apply all concepts learned in a real-world scenario
+- Peer review and feedback process
+
+## Community & Support
+
+### **Getting Help on Slack**
+Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel on [DataTalks.Club Slack](https://datatalks.club/slack.html) for discussions, troubleshooting, and networking.
+
+To keep discussions organized:
+- Follow [our guidelines](asking-questions.md) when posting questions.
+- Review the [community guidelines](https://datatalks.club/slack/guidelines.html).
+
+## Meet the Instructors
+- [Victoria Perez Mola](https://www.linkedin.com/in/victoriaperezmola/)
+- [Alexey Grigorev](https://linkedin.com/in/agrigorev)
+- [Michael Shoemaker](https://www.linkedin.com/in/michaelshoemaker1/)
+- [Zach Wilson](https://www.linkedin.com/in/eczachly)
+- [Will Russell](https://www.linkedin.com/in/wrussell1999/)
+- [Anna Geller](https://www.linkedin.com/in/anna-geller-12a86811a/)
+
+Past instructors:
+- [Ankush Khanna](https://linkedin.com/in/ankushkhanna2)
+- [Sejal Vaidya](https://www.linkedin.com/in/vaidyasejal/)
+- [Irem Erturk](https://www.linkedin.com/in/iremerturk/)
+- [Luis Oliveira](https://www.linkedin.com/in/lgsoliveira/)
+
+## Sponsors & Supporters
+A special thanks to our course sponsors for making this initiative possible!
+
+<p align="center">
+  <a href="https://kestra.io/">
+    <img height="120" src="images/kestra.svg">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://dlthub.com/">
+    <img height="90" src="images/dlthub.png">
+  </a>
+</p>
+
+Interested in supporting our community? Reach out to [alexey@datatalks.club](mailto:alexey@datatalks.club).
+
+## About DataTalks.Club
+
+<p align="center">
+  <img width="40%" src="https://github.com/user-attachments/assets/1243a44a-84c8-458d-9439-aaf6f3a32d89" alt="DataTalks.Club">
+</p>
+
+<p align="center">
+<a href="https://datatalks.club/">DataTalks.Club</a> is a global online community of data enthusiasts. It's a place to discuss data, learn, share knowledge, ask and answer questions, and support each other.
+</p>
+
+<p align="center">
+<a href="https://datatalks.club/">Website</a> •
+<a href="https://datatalks.club/slack.html">Join Slack Community</a> •
+<a href="https://us19.campaign-archive.com/home/?u=0d7822ab98152f5afc118c176&id=97178021aa">Newsletter</a> •
+<a href="http://lu.ma/dtc-events">Upcoming Events</a> •
+<a href="https://calendar.google.com/calendar/?cid=ZjhxaWRqbnEwamhzY3A4ODA5azFlZ2hzNjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google Calendar</a> •
+<a href="https://www.youtube.com/@DataTalksClub/featured">YouTube</a> •
+<a href="https://github.com/DataTalksClub">GitHub</a> •
+<a href="https://www.linkedin.com/company/datatalks-club/">LinkedIn</a> •
+<a href="https://twitter.com/DataTalksClub">Twitter</a>
+</p>
+
+All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
+
+At DataTalksClub, we organize online events, community activities, and free courses. You can learn more about what we do at [DataTalksClub Community Navigation](https://www.notion.so/DataTalksClub-Community-Navigation-bf070ad27ba44bf6bbc9222082f0e5a8?pvs=21).
 
-- **Start**: 17 January 2022
-- **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
-- Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
-- Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
-- Subscribe to our [public Google Calendar](https://calendar.google.com/calendar/?cid=ZXIxcjA1M3ZlYjJpcXU0dTFmaG02MzVxMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (it works from Desktop only)
-- The videos are published to [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb) 
-- [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vR9oQiYnAVvzL4dagnhvp0sngqagF0AceD0FGjhS-dnzMTBzNQIal3-hOgkTibVQvfuqbQ69b0fvRnf/pubhtml)
-
-## Syllabus
-
-> **Note**: This is preliminary and may change
-
-### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup)
-
-* Course overview
-* Introduction to GCP
-* Docker and docker-compose 
-* Running Postgres locally with Docker
-* Setting up infrastructure on GCP with Terraform
-* Preparing the environment for the course
-* Homework
-
-[More details](week_1_basics_n_setup)
-
-
-### [Week 2: Data ingestion](week_2_data_ingestion)
-
-* Data Lake
-* Workflow orchestration
-* Setting up Airflow locally
-* Ingesting data to GCP with Airflow
-* Ingesting data to local Postgres with Airflow
-* Moving data from AWS to GCP (Transfer service)
-* Homework
-
-[More details](week_2_data_ingestion)
-
-
-
-### [Week 3: Data Warehouse](week_3_data_warehouse)
-
-Goal: Structuring data into a Data Warehouse
-
-Instructor: Ankush
-
-* Data warehouse (BigQuery) (25 minutes)
-    * What is a data warehouse solution
-    * What is big query, why is it so fast, Cost of BQ,  (5 min)
-    * Partitoning and clustering, Automatic re-clustering (10 min)
-    * Pointing to a location in google storage (5 min)
-    * Loading data to big query & PG (10 min) -- using Airflow operator?
-    * BQ best practices
-    * Misc: BQ Geo location, BQ ML 
-    * Alternatives (Snowflake/Redshift)
-
-Duration: 1-1.5h
-
-
-### [Week 4: Analytics engineering](week_4_analytics_engineering/taxi_rides_ny/)
-
-Goal: Transforming Data in DWH to Analytical Views
-
-Instructor: Victoria
-
-* Basics of analytics engineering (15 mins)
-* Developing a dbt project (Combination of coding + theory) (1:30)
-* Visualising the data in Google data studio (15 mins)
-
-Duration: 2h    
-
-[More details](week_4_analytics_engineering)
-
-
-### [Week 5: Batch processing](week_5_batch_processing)
-
-Goal: 
-
-Instructor: Alexey
-
-* Distributed processing (Spark) (40 + ? minutes)
-    * What is Spark, spark cluster (5 mins)
-    * Explaining potential of Spark (10 mins)
-    * What is broadcast variables, partitioning, shuffle (10 mins)
-    * Pre-joining data (10 mins)
-    * use-case
-    * What else is out there (Flink) (5 mins)
-* Extending Orchestration env (airflow) (30 minutes)
-    * Big query on airflow (10 mins)
-    * Spark on airflow (10 mins)
-
-Duration: 1-1.5h
-
-### [Week 6: Streaming](week_6_stream_processing)
-
-Goal: 
-
-Instructor: Ankush
-
-* Basics
-    * What is Kafka
-    * Internals of Kafka, broker
-    * Partitoning of Kafka topic
-    * Replication of Kafka topic
-* Consumer-producer
-* Schemas (avro)
-* Streaming
-    * Kafka streams
-* Kafka connect
-* Alternatives (PubSub/Pulsar)
-
-Duration: 1.5h
-
-
-
-### [Week 7, 8 & 9: Project](project)
-
-* Putting everything we learned to practice
-
-Duration: 2-3 weeks
-
-* Upcoming buzzwords
-  *  Delta Lake/Lakehouse
-    * Databricks
-    * Apache iceberg
-  * Data mesh
-  * KSQLDB
-  * Streaming analytics
-  * Mlops
-  
-Duration: 30 mins
-
-## Overview
-
-### Architecture diagram
-<img src="images/architecture/arch_1.jpg"/>
-
-### Technologies
-* *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
-  * *Google Cloud Storage (GCS)*: Data Lake
-  * *BigQuery*: Data Warehouse
-* *Terraform*: Infrastructure-as-Code (IaC)
-* *Docker*: Containerization
-* *SQL*: Data Analysis & Exploration
-* *Airflow*: Pipeline Orchestration
-* *dbt*: Data Transformation
-* *Spark*: Distributed Processing
-* *Kafka*: Streaming
-
-
-### Prerequisites
-
-To get most out of this course, you should feel comfortable with coding and command line,
-and know the basics of SQL. Prior experience with Python will be helpful, but you can pick 
-Python relatively fast if you have experience with other programming languages.
-
-Prior experience with data engineering is not required.
-
-
-
-## Instructors
-
-- Ankush Khanna (https://linkedin.com/in/ankushkhanna2)
-- Sejal Vaidya (https://linkedin.com/in/vaidyasejal)
-- Victoria Perez Mola (https://www.linkedin.com/in/victoriaperezmola/)
-- Alexey Grigorev (https://linkedin.com/in/agrigorev)
-
-## Tools 
-
-For this course you'll need to have the following software installed on your computer:
-
-* Docker and Docker-Compose
-* Python 3 (e.g. via [Anaconda](https://www.anaconda.com/products/individual))
-* Google Cloud SDK 
-* Terraform
-
-See [Week 1](week_1_basics_n_setup) for more details about installing these tools
-
-
-## Questions
-
-### Asking questions in Slack 
-
-You can ask any questions in the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel in [DataTalks.Club](https://datatalks.club) slack
-
-Please follow [these recommendations](asking-questions.md) when asking for help   
-
-
-### FAQ
-
-
-* **Q**: I registered, but haven't received a confirmation email. Is it normal?
-  **A**: Yes, it's normal. It's not automated. But you will receive an email eventually 
-* **Q**: At what time of the day will it happen?
-  **A**: Office hours will happen on Mondays at 17:00 CET. But everything will be recorded, so you can watch it whenever it's convenient for you
-* **Q**: Will there be a certificate?
-  **A**: Yes, if you complete the project
-* **Q**: I'm 100% not sure I'll be able to attend. Can I still sign up?
-  **A**: Yes, please do! You'll receive all the updates and then you can watch the course at your own pace. 
-* **Q**: Do you plan to run a ML engineering course as well? **A**: Glad you asked. [We do](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) :)
-
-
-
-## Our friends 
-
-Big thanks to other communities for helping us spread the word about the course: 
-
-* [DPhi](https://dphi.tech/)
-* [MLOps.community](https://mlops.community/)
-
-Check them out - they are cool!
